@@ -1,0 +1,128 @@
+/* Theme */
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	color:#340a38;
+    font-size: 1.3em;
+}
+#menu, a {
+    color:  #F3E5F5;
+    text-decoration: none;
+}
+
+h1 {
+	display: inline;
+	color:#D500F9;
+	background-color: white;
+}
+
+h1::before {
+	position: absolute;
+}
+
+.center-absolute {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Menu */
+
+#menu
+{
+	position: fixed;
+	display: flex;
+	width: 100%;
+	background: #7B1FA2;
+	line-height: 70px;
+	z-index: 100;
+}
+
+#menu-spacer {
+	display: block;
+	height: 70px;
+	width: 100%;
+}
+
+
+#logo {
+	padding: 0 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+#nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	margin: 0;
+}
+
+#nav a {
+    font-size: 1.2em;
+    list-style: none;
+	padding: 0 0.7em;
+	transition: 0.2s ease-in-out;
+}
+
+#nav a:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Sections */
+
+.section {
+	position: relative;
+	margin: 0 15vw;
+	padding: 0.7em 2em;
+}
+
+.title {
+	display: block;
+	text-align: center;
+	position: relative;
+}
+
+.title >h1 {
+	z-index: 1;
+	padding: 0 1em;
+}
+
+
+.title::before {
+	content: " ";
+	position: absolute;
+	height: 3px;
+	top: calc(50% - 1.5px);
+	left: 0;
+	width: 100%;
+	background-color: #FFD54F;
+	z-index: -1;
+}
+
+
+#gallery ul {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  #gallery li {
+	height: 25vh;
+	padding: .6em;
+	flex-grow: 1;
+	list-style-type: none;
+  }
+  
+  #gallery img {
+	max-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+  }
+
+  #contact form {
+	  margin-top: 2em;
+  }
