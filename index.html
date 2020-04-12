@@ -9,7 +9,7 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-    
+
   <div id="menu">
     <div id="logo">
       Galina's Site
@@ -86,10 +86,11 @@
       <h1>Like on Facebook</h1>
     </div>
     <p>
-    Give this website a Like on Facebook, and spread the support for elderly: <br>
-    
-    <div class="fb-like" data-href="https://sise-web-development-environments.github.io/assignment1-uspeit/" data-width="1000" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-  </p>
+      Give this website a Like on Facebook, and spread the support for elderly: <br>
+
+      <div class="fb-like" data-href="https://sise-web-development-environments.github.io/assignment1-uspeit/"
+        data-width="1000" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+    </p>
   </section>
 
   <section id="qrcoder" class="section">
@@ -104,6 +105,47 @@
     <div class="title">
       <h1>Q&A</h1>
     </div>
+
+    <p>
+      <h3> Explain 3 major differences between Web1 / Web2 / Web3</h3>
+      Web 1-3 describe the stages of development of the web ecosystem.
+      <ul>
+        <li>
+          <b>Interaction</b> - Interaction with the content has changed greatly between the generations of the internet.
+          <br>
+          Web 1 - Static websites being presented to the user - a one way interaction<br>
+          Web 2 - Dynamic web applications allow for more complex applications that interact with the user<br>
+          Web 3 - Smart applications that are customized for the user's behaviour and needs.<br>
+          <i><u>Example:</u></i> On Web1, you can visit web sites and view their content, and Web2 you can interact with
+          it - change it or add to it, on Web3 the internet is embedded into everything we use, and turning on the light
+          is considered an interaction.
+        </li>
+        <li>
+          <b>Orientation</b> - Web content orientation has changed between the generations of the internet.<br>
+          Web 1 - Static websites representing <u>corporations and companies</u><br>
+          Web 2 - Dynamic web applications push the net towards <u>community</u> - Comments / rating / Social networks
+          etc.<br>
+          Web 3 - The web becomes an <u>induviduals</u> window to the world.<br>
+          <i><u>Example:</u></i> Searching for "Side effects of medication" on Web1 would probably lead to an offical
+          page of the pharmaceutical company describing the side effects, on Web2 it would probably lead to Blog or
+          Facebook posts, and on Web3 to a web application connected to your medical history and aware of your medical
+          conditions.
+
+        </li>
+
+        <li>
+          <b>Scope</b> - The amount of users connected to the internet has increased between generations of the
+          internet.<br>
+          Web 1 - Websites accessible by special equipment (computers) not accessible to all</u><br>
+          Web 2 - Web is accessible almost by anyone via more widespread computers and more importantly - Personal
+          smartphones<br>
+          Web 3 - The web provides communication between devices and people. Data is collected, analyzed and shared.
+          <br>
+          <i><u>Example:</u></i> Web1 users were people who had computers and connected to the internet, Web2 users
+          became more casual because everyone could connect, on Web3 everyone is connected by everything.
+        </li>
+      </ul>
+    </p>
   </section>
 
   <section id="contact" class="section">
@@ -117,7 +159,7 @@
             Your Name:
           </td>
           <td>
-            <input type="text" name="name"/>
+            <input type="text" name="name" class="input" />
           </td>
         </tr>
         <tr>
@@ -125,19 +167,24 @@
             Your Email:
           </td>
           <td>
-            <input type="text" name="email"/>
+            <input type="text" name="email" class="input"/>
           </td>
         </tr>
-        <tr><td colspan="2">Your Message:
-          <br />
-          <textarea name="comments" rows = "12" cols = "35"></textarea>
-          <br>
-        <input type="submit" name="submit" value="Send" />
-          <input type="reset" name="reset" value="Clear Form" /></tr>
+        <tr>
+          <td colspan="2">Your Message:
+            <br />
+            <textarea name="comments" rows="12" cols="35" class="input"></textarea>
+            <br>
+            <input type="submit" name="submit" class="button" value="Send" />
+            <input type="reset" name="reset" class="button" value="Clear Form" />
+        </tr>
       </table>
     </form>
   </section>
 
+  <section id="footer" class="section">
+   <span style="display: block; text-align: center;">Created by Eitan Fedenko for </span> 
+  </section>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 

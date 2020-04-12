@@ -28,6 +28,30 @@ h1::before {
 	transform: translateX(-50%) translateY(-50%);
 }
 
+input {
+	background: #FFF;
+	color: #7B1FA2;
+	border-color: #7B1FA2;
+	padding: .2em .5em;
+	border-radius: .3em;
+}
+
+.button {
+	background: #7B1FA2;
+	color: white;
+	font-size: 1.2em;
+	padding: .2em .5em;
+	border: 2px solid transparent;	
+	border-radius: .3em;
+	transition: .2s ease-in-out;
+}
+.button:hover {
+	background: #FFF;
+	color: #7B1FA2;
+	border-color: #7B1FA2;
+	font-size: 1.2em;	
+}
+
 /* Menu */
 
 #menu
